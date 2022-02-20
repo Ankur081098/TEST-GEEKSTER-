@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <style>
+        body{
+            background-color: crimson;
+        }
+        .input{
+width:350px;
+height:30px;
+border-radius: 20px;
+
+}
+div{
+width:850px;
+height:800px;
+
+background-color:bisque;
+border-radius:20px;
+margin-left: 500px;
+text-align: center;
+padding:10px;
+
+}
+.button{
+width:80px;
+height:28px;
+border-radius:10px;
+
+}
+h1{
+    font-size: 35px;
+    
+}
+button{
+    margin-top: 50px;
+            border-radius: 10%;
+            width:100px;
+            height: 50px;
+            background-color: dodgerblue;
+        
+}
+select{
+            border-radius: 20px;
+            height: 32px;
+        }
+        .Condition{
+           margin-right: 30%;
+        }
+        .checkbox{
+            margin-left: 25%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+        <h1 style="font-family:Arial;">Survey form</h1>
+        
+        
+        <input class="input" type="text" placeholder="Enter Your First Name" required><br><br>
+        <input class="input" type="text" placeholder="Enter Your Last Name"required><br><br>
+        <input class="input" type="email" placeholder="Enter Your Email Address" required><br><br>
+       <input class="input" type="text" placeholder="Contact Number" required><br><br>
+       <input class="input" type="text" placeholder="Your Hobbies"><br><br>
+        
+        <label style="font-family:Arial;" >Select Gender:</label>
+        <input type="radio" id="gender" value="Male" name="gender"><label for="gender" style="font-family:Arial;">Male</label>
+        <input type="radio" id="gender" value="Female" name="gender"><label for="gender" style="font-family:Arial;">Female</label><br><br>
+        <label for="bday" style="font-family:Arial;">Date Of Birth:</label>
+        <input type="date" id="bday" name="birthdate" required><br><br>
+        <input class="input" type="text" placeholder="Your Country Name" required><br><br>
+        <label>Your Branch :</label>
+        <select name = "dropdown" not seelcted>
+            <option value = "Machenical ">Machenical</option>
+            <option value = "Computer Science & IT">Computer Science & IT</option>
+            <option value = "Electronics">Electronics</option>
+         </select><br><br>
+
+
+    
+        
+
+       
+         <input class="checkbox" type="checkbox" > <label class="Condition">I have read all terms and conditions</label><br><br>
+        <button type ="reset">SUBMIT </button>
+        </form>
+        
+        </div>
+</body>
+</html>
